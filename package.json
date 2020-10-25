@@ -1,0 +1,27 @@
+{
+  "name": "appauditoriaservidor",
+  "version": "1.0.0",
+  "description": "Servidor de la app de Auditoria",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "Contraloría",
+    "Interna"
+  ],
+  "author": "Contraloría Interna",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
